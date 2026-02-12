@@ -17,6 +17,12 @@ function setup() {
 	rect = new Sprite(650, 800, 100,100);
 	rect.color = '#34e07c'
 
+
+
+
+
+
+
 }
 setup()
 //
