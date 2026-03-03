@@ -3,7 +3,7 @@
 // Create a sprite
 /// Written by ???
 /*******************************************************/
-	
+
 /*******************************************************/
 
 
@@ -11,12 +11,12 @@
 function setup() {
 	console.log("setup: ");
 
-	cnv = new Canvas( windowWidth,  windowHeight);
+	cnv = new Canvas(windowWidth, windowHeight);
 	world.gravity.y = 10;
 
-	rect = new Sprite(400, 400, 100,100);
+	rect = new Sprite(400, 400, 100, 100);
 	rect.color = '#34e07c'
-	rect.rotationSpeed = 2 ;
+	rect.rotationSpeed = 2;
 	rect.vel.x = 10;
 	rect.vel.y = -10;
 	rect.drag = 0.1
@@ -24,13 +24,13 @@ function setup() {
 
 	rect5 = new Sprite(1200, 700, 100, 's');
 	rect5.color = '#e05c34'
-	rect5.rotationSpeed = 2 ;
+	rect5.rotationSpeed = 2;
 	rect5.vel.x = -10;
 	rect5.vel.y = 4;
 	rect5.bounciness = 1
 
 
-	rect6 = new Sprite(700, 500, 200, 10,'s');
+	rect6 = new Sprite(700, 500, 200, 10, 's');
 	rect6.color = '#e05c34'
 	rect6.rotationSpeed = 2;
 	rect6.vel.x = -10;
@@ -40,14 +40,14 @@ function setup() {
 
 	rect2 = new Sprite(900, 500, 100, 's');
 	rect2.color = '#cc6d50'
-	rect2.rotationSpeed = 2 ;
+	rect2.rotationSpeed = 2;
 	rect2.vel.x = -10;
 	rect2.vel.y = 4;
 	rect2.bounciness = 1
 
 	rect4 = new Sprite(700, 800, 100, 's');
 	rect4.color = '#773e2d'
-	rect4.rotationSpeed = 2 ;
+	rect4.rotationSpeed = 2;
 	rect4.vel.x = -10;
 	rect4.vel.y = 4;
 	rect4.bounciness = 100
@@ -95,12 +95,12 @@ function setup() {
 }
 setup()
 //
-	
+
 /*******************************************************/
 
 /*******************************************************/
 function draw() {
-	background('rgb(255, 255, 255)'); 
+	background('rgb(255, 255, 255)');
 }
 
 /*******************************************************/
